@@ -143,8 +143,7 @@ AfriGoal is an app designed for soccer fans. It is specifically tailored to be t
 * Sprint 1: Build the home screen with countdown till kick off  
   * Goals: Use Date() and Timer() objects to create the countdown
   * Completed on 11/07/2023
-
-Sprint1-AfriGoal- 8 November 2023 - Watch Video
+  * Sprint1-AfriGoal-8 November 2023 - Watch Video
 
 
 
