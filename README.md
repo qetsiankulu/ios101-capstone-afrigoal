@@ -143,4 +143,4 @@ AfriGoal is an app designed for soccer fans. It is specifically tailored to be t
 * Sprint 1: Build the home screen with countdown till kick off  
   * Goals: Use Date() and Timer() objects to create the countdown
   * Completed on 11/07/2023
-   <img src="https://i.imgur.com/sEHJq9z.gif" width=300>
+   <img src="https://imgur.com/sEHJq9z.gif" width=300>
