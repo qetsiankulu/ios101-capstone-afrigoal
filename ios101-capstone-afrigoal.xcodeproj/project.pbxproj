@@ -16,6 +16,10 @@
 		639E77452AFB237B004C7691 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E77442AFB237B004C7691 /* HomeScreenViewController.swift */; };
 		639E77482AFB2980004C7691 /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 639E77462AFB2448004C7691 /* Barlow-Light.ttf */; };
 		639E77492AFB2983004C7691 /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 639E77472AFB2451004C7691 /* Barlow-Medium.ttf */; };
+		639E774F2AFC03A3004C7691 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E774E2AFC03A3004C7691 /* TeamsViewController.swift */; };
+		639E77542AFC11E7004C7691 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E77532AFC11E7004C7691 /* Team.swift */; };
+		639E77562AFC36FD004C7691 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E77552AFC36FC004C7691 /* TeamCell.swift */; };
+		639E77592AFC48CB004C7691 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 639E77582AFC48CB004C7691 /* Nuke */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,9 @@
 		639E77442AFB237B004C7691 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = SOURCE_ROOT; };
 		639E77462AFB2448004C7691 /* Barlow-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.ttf"; sourceTree = "<group>"; };
 		639E77472AFB2451004C7691 /* Barlow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		639E774E2AFC03A3004C7691 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		639E77532AFC11E7004C7691 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		639E77552AFC36FC004C7691 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639E77592AFC48CB004C7691 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,9 +74,12 @@
 			children = (
 				639E77302AFB227C004C7691 /* AppDelegate.swift */,
 				639E77322AFB227C004C7691 /* SceneDelegate.swift */,
+				639E774E2AFC03A3004C7691 /* TeamsViewController.swift */,
+				639E77532AFC11E7004C7691 /* Team.swift */,
 				639E77342AFB227C004C7691 /* ViewController.swift */,
 				639E77442AFB237B004C7691 /* HomeScreenViewController.swift */,
 				639E77362AFB227C004C7691 /* Main.storyboard */,
+				639E77552AFC36FC004C7691 /* TeamCell.swift */,
 				639E77392AFB227F004C7691 /* Assets.xcassets */,
 				639E773B2AFB227F004C7691 /* LaunchScreen.storyboard */,
 				639E773E2AFB227F004C7691 /* Info.plist */,
@@ -92,6 +103,9 @@
 			dependencies = (
 			);
 			name = "ios101-capstone-afrigoal";
+			packageProductDependencies = (
+				639E77582AFC48CB004C7691 /* Nuke */,
+			);
 			productName = "ios101-capstone-afrigoal";
 			productReference = 639E772D2AFB227C004C7691 /* ios101-capstone-afrigoal.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +134,9 @@
 				Base,
 			);
 			mainGroup = 639E77242AFB227C004C7691;
+			packageReferences = (
+				639E77572AFC48CB004C7691 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 639E772E2AFB227C004C7691 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -149,9 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639E77562AFC36FD004C7691 /* TeamCell.swift in Sources */,
 				639E77352AFB227C004C7691 /* ViewController.swift in Sources */,
+				639E77542AFC11E7004C7691 /* Team.swift in Sources */,
 				639E77452AFB237B004C7691 /* HomeScreenViewController.swift in Sources */,
 				639E77312AFB227C004C7691 /* AppDelegate.swift in Sources */,
+				639E774F2AFC03A3004C7691 /* TeamsViewController.swift in Sources */,
 				639E77332AFB227C004C7691 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +393,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		639E77572AFC48CB004C7691 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		639E77582AFC48CB004C7691 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 639E77572AFC48CB004C7691 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 639E77252AFB227C004C7691 /* Project object */;
 }
