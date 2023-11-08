@@ -28,46 +28,46 @@
                                 <rect key="frame" x="70" y="397" width="253" height="224"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="mSv-7J-RLv">
-                                <rect key="frame" x="26.666666666666657" y="624" width="339.66666666666674" height="65"/>
+                                <rect key="frame" x="34.333333333333343" y="624" width="324.66666666666663" height="63"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrZ-I3-xwR">
-                                        <rect key="frame" x="0.0" y="0.0" width="58" height="65"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="57" height="63"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="51"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsC-Jd-8rR">
-                                        <rect key="frame" x="65" y="0.0" width="19" height="65"/>
+                                        <rect key="frame" x="63.999999999999993" y="0.0" width="15.333333333333336" height="63"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="54"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aeo-Jb-QH2">
-                                        <rect key="frame" x="91" y="0.0" width="60" height="65"/>
+                                        <rect key="frame" x="86.333333333333343" y="0.0" width="59" height="63"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="53"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0T-mN-3xO">
-                                        <rect key="frame" x="158" y="0.0" width="19" height="65"/>
+                                        <rect key="frame" x="152.33333333333331" y="0.0" width="15.333333333333343" height="63"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="54"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgu-SP-ti8">
-                                        <rect key="frame" x="184" y="0.0" width="61.333333333333343" height="65"/>
+                                        <rect key="frame" x="174.66666666666666" y="0.0" width="60.333333333333343" height="63"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="54"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3U-hN-ZDn">
-                                        <rect key="frame" x="252.33333333333337" y="0.0" width="19" height="65"/>
+                                        <rect key="frame" x="241.99999999999997" y="0.0" width="15.333333333333343" height="63"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="54"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSO-ri-bOS">
-                                        <rect key="frame" x="278.33333333333331" y="0.0" width="61.333333333333314" height="65"/>
+                                        <rect key="frame" x="264.33333333333337" y="0.0" width="60.333333333333314" height="63"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="54"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -75,28 +75,28 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="f5r-Ed-dFL">
-                                <rect key="frame" x="31.333333333333343" y="691" width="330.33333333333326" height="20.666666666666629"/>
+                                <rect key="frame" x="18" y="689" width="357.33333333333337" height="20"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAYS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceB-fp-kWV">
-                                        <rect key="frame" x="0.0" y="0.0" width="39.333333333333336" height="20.666666666666668"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="44" height="20"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="17"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOURS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZU-Aj-9Es">
-                                        <rect key="frame" x="71.333333333333343" y="0.0" width="53" height="20.666666666666668"/>
+                                        <rect key="frame" x="76" y="0.0" width="60.333333333333343" height="20"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="17"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINUTES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6r-DQ-03V">
-                                        <rect key="frame" x="156.33333333333331" y="0.0" width="69" height="20.666666666666668"/>
+                                        <rect key="frame" x="168.33333333333334" y="0.0" width="75" height="20"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="17"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SECONDS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRG-Sv-jRc">
-                                        <rect key="frame" x="257.33333333333337" y="0.0" width="73" height="20.666666666666668"/>
+                                        <rect key="frame" x="275.33333333333331" y="0.0" width="82" height="20"/>
                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="17"/>
                                         <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -129,12 +129,29 @@
             </objects>
             <point key="canvasLocation" x="2535.1145038167938" y="-27.464788732394368"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="K5k-m3-u8N">
+            <objects>
+                <viewController id="I6o-Yj-3wx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f4X-34-N83">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Qlt-n1-mcl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VDf-iV-12z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cMn-jH-zhW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2647" y="715"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cvp-X3-UoG">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="1h3-pO-kzc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="LEg-Hi-aGs">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.014726784079999999" green="0.2059602737" blue="0.15078571439999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" systemColor="systemYellowColor"/>
@@ -142,6 +159,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="f6C-gh-Oso" kind="relationship" relationship="viewControllers" id="3pG-A0-YKc"/>
+                        <segue destination="GQi-La-fab" kind="relationship" relationship="viewControllers" id="Zoo-8Q-7Sw"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pWY-gh-LgL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -167,11 +185,34 @@
             </objects>
             <point key="canvasLocation" x="1608.3969465648854" y="-27.464788732394368"/>
         </scene>
+        <!--Matches-->
+        <scene sceneID="rB5-SI-gl6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GQi-La-fab" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Matches" image="soccerball" catalog="system" id="jXB-IF-R2o"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NIc-Yq-vzv">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="I6o-Yj-3wx" kind="relationship" relationship="rootViewController" id="e8a-ir-bkg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xh8-pH-diW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1720" y="715"/>
+        </scene>
     </scenes>
     <resources>
         <image name="caf-logo-icon" width="154" height="252"/>
         <image name="caf-logo-text" width="253" height="224"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="soccerball" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
