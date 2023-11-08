@@ -1,24 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1h3-pO-kzc">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Barlow-Medium.ttf">
+            <string>Barlow-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Home Screen View Controller-->
+        <scene sceneID="HvH-PF-nA2">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="fBF-7T-75W" customClass="HomeScreenViewController" customModule="ios101_capstone_afrigoal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nxT-16-2ar">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="caf-logo-icon" translatesAutoresizingMaskIntoConstraints="NO" id="PY7-hv-3Tc">
+                                <rect key="frame" x="119.66666666666669" y="128" width="154" height="252"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="caf-logo-text" translatesAutoresizingMaskIntoConstraints="NO" id="QUK-jh-0RO">
+                                <rect key="frame" x="70" y="397" width="253" height="224"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="mSv-7J-RLv">
+                                <rect key="frame" x="26.666666666666657" y="624" width="339.66666666666674" height="65"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrZ-I3-xwR">
+                                        <rect key="frame" x="0.0" y="0.0" width="58" height="65"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="51"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsC-Jd-8rR">
+                                        <rect key="frame" x="65" y="0.0" width="19" height="65"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="54"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aeo-Jb-QH2">
+                                        <rect key="frame" x="91" y="0.0" width="60" height="65"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="53"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0T-mN-3xO">
+                                        <rect key="frame" x="158" y="0.0" width="19" height="65"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="54"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgu-SP-ti8">
+                                        <rect key="frame" x="184" y="0.0" width="61.333333333333343" height="65"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="54"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3U-hN-ZDn">
+                                        <rect key="frame" x="252.33333333333337" y="0.0" width="19" height="65"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="54"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSO-ri-bOS">
+                                        <rect key="frame" x="278.33333333333331" y="0.0" width="61.333333333333314" height="65"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="54"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="f5r-Ed-dFL">
+                                <rect key="frame" x="31.333333333333343" y="691" width="330.33333333333326" height="20.666666666666629"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAYS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceB-fp-kWV">
+                                        <rect key="frame" x="0.0" y="0.0" width="39.333333333333336" height="20.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="17"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOURS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZU-Aj-9Es">
+                                        <rect key="frame" x="71.333333333333343" y="0.0" width="53" height="20.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="17"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINUTES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6r-DQ-03V">
+                                        <rect key="frame" x="156.33333333333331" y="0.0" width="69" height="20.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="17"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SECONDS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRG-Sv-jRc">
+                                        <rect key="frame" x="257.33333333333337" y="0.0" width="73" height="20.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="17"/>
+                                        <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="er7-qM-Aep"/>
+                        <color key="backgroundColor" red="0.022306405009999999" green="0.26920875909999997" blue="0.20241296289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QUK-jh-0RO" firstAttribute="top" secondItem="PY7-hv-3Tc" secondAttribute="bottom" constant="17" id="2tW-JU-RDb"/>
+                            <constraint firstItem="PY7-hv-3Tc" firstAttribute="centerX" secondItem="nxT-16-2ar" secondAttribute="centerX" id="6TS-5V-Ik3"/>
+                            <constraint firstItem="QUK-jh-0RO" firstAttribute="centerX" secondItem="nxT-16-2ar" secondAttribute="centerX" id="92y-vx-zKq"/>
+                            <constraint firstItem="PY7-hv-3Tc" firstAttribute="top" secondItem="er7-qM-Aep" secondAttribute="top" constant="25" id="BQr-uF-Qct"/>
+                            <constraint firstItem="mSv-7J-RLv" firstAttribute="top" secondItem="QUK-jh-0RO" secondAttribute="bottom" constant="3" id="XFg-lO-NXO"/>
+                            <constraint firstItem="f5r-Ed-dFL" firstAttribute="top" secondItem="mSv-7J-RLv" secondAttribute="bottom" constant="2" id="gqh-Xg-QFo"/>
+                            <constraint firstItem="f5r-Ed-dFL" firstAttribute="centerX" secondItem="nxT-16-2ar" secondAttribute="centerX" id="pXN-jc-e3c"/>
+                            <constraint firstItem="mSv-7J-RLv" firstAttribute="centerX" secondItem="nxT-16-2ar" secondAttribute="centerX" id="xso-kp-Ntu"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Bxw-e7-fU1"/>
+                    <connections>
+                        <outlet property="daysLabel" destination="LrZ-I3-xwR" id="0ZU-G1-l5r"/>
+                        <outlet property="hoursLabel" destination="Aeo-Jb-QH2" id="gSk-cL-WRZ"/>
+                        <outlet property="minutesLabel" destination="Fgu-SP-ti8" id="qk0-oH-HUi"/>
+                        <outlet property="secondsLabel" destination="dSO-ri-bOS" id="MbE-cg-fEd"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LyG-No-chw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2535.1145038167938" y="-27.464788732394368"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="cvp-X3-UoG">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="1h3-pO-kzc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="LEg-Hi-aGs">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.014726784079999999" green="0.2059602737" blue="0.15078571439999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="systemYellowColor"/>
+                        <color key="selectedImageTintColor" red="0.86274509799999999" green="0.40992802379999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="f6C-gh-Oso" kind="relationship" relationship="viewControllers" id="3pG-A0-YKc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pWY-gh-LgL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="515" y="-27"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="puG-1I-6Hy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f6C-gh-Oso" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="DZl-lp-XS7"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jzt-XW-N4L">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fBF-7T-75W" kind="relationship" relationship="rootViewController" id="oM5-zi-xxx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQT-z7-b7p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1608.3969465648854" y="-27.464788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="caf-logo-icon" width="154" height="252"/>
+        <image name="caf-logo-text" width="253" height="224"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
