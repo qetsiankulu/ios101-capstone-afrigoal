@@ -150,6 +150,11 @@ AfriGoal is an app designed for soccer fans. It is specifically tailored to be t
    </a>
 </div>
 
+* Sprint 2:  Build Teams screen
+  * Goals: Populate a table view with the team names and flags through Live Score API
+  * Reflection: I feel a lot more comofortable with the the logic behind API calls and decoding JSON data for my Team model. I also learned how to add packages to my Xcode project. I used the Nuke package to get the images from API. The compiler gives m no errors but the team names or their flags do not appear. Still debugging. 
+<img src="https://imgur.com/a/opAMLWa.png" width=300> 
+ 
 
 
 
