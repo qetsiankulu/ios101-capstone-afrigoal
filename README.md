@@ -144,16 +144,16 @@ AfriGoal is an app designed for soccer fans. It is specifically tailored to be t
   * Goals: Use Date() and Timer() objects to create the countdown
   * Reflection: Had to rebuild my entire project because my project file was corrupt. It was tedious but a good learning experience that helped me master my understanding of      constraints. 
   * Completed on 11/07/2023
-<div>
-   <a href="https://www.loom.com/share/84f8ebd6ce654b9598c7048e8131832e" target="_blank">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/84f8ebd6ce654b9598c7048e8131832e-with-play.gif">
-   </a>
-</div>
+   <div>
+      <a href="https://www.loom.com/share/84f8ebd6ce654b9598c7048e8131832e" target="_blank">
+         <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/84f8ebd6ce654b9598c7048e8131832e-with-play.gif">
+      </a>
+   </div>
 
 * Sprint 2:  Build Teams screen
   * Goals: Populate a table view with the team names and flags through Live Score API
-  * Reflection: I feel a lot more comofortable with the the logic behind API calls and decoding JSON data for my Team model. I also learned how to add packages to my Xcode project. I used the Nuke package to get the images from API. The compiler gives m no errors but the team names or their flags do not appear. Still debugging. 
-<img src="https://imgur.com/a/opAMLWa.png" width=300> 
+  * Reflection: I feel a lot more comofortable with the the logic behind API calls and decoding JSON data for my Team model. I also learned how to add packages to my Xcode project. I used the Nuke package to get the images from API. The compiler gives me no errors but the team names or their flags do not appear. Still debugging. 
+ <img src="https://i.imgur.com/0JvHyTh.png" width=300>
  
 
 
