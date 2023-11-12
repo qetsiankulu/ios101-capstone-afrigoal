@@ -6,6 +6,7 @@
 	<array>
 		<string>Barlow-Medium</string>
 		<string>Barlow-Light</string>
+		<string>Barlow-SemiBold</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

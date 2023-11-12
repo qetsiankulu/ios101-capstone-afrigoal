@@ -28,14 +28,18 @@ class TeamsViewController: UIViewController, UITableViewDataSource {
         let team = teams[indexPath.row]
         
         let flag = team.id
+
         let flagUrlString = "https://livescore-api.com/api-client/countries/flag.json?key=HUFF2p7jSWrpDFvU&secret=15O4gzFNRP8dOiLwcqcfPjyHgZ6TFBOH&team_id=" + flag
         
         if let flagUrl = URL(string: flagUrlString) {
-            // Use Nuke library load image function to (async) fethc and load the image from the image URL
-            Nuke.loadImage(with: flagUrl, into: cell.teamFlagImageView)
+            // Use Nuke library load image function to (async) fetch and load the image from the image URL
+            DispatchQueue.main.async {
+                Nuke.loadImage(with: flagUrl, into: cell.teamFlagImageView)
+            }
         } else {
             print("🚨 Invalid URL for image")
         }
+       
         
         // set the text on the labels
         cell.teamNameLabel.text = team.name
@@ -54,12 +58,15 @@ class TeamsViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         
         navigationController?.navigationBar.prefersLargeTitles = true // lab 5, step 3
+        // Set the bar background color
+        let customColor = UIColor(red: 220/255.0, green: 105/255.0, blue: 0/255.0, alpha: 1.0)
+           navigationController?.navigationBar.barTintColor = customColor
         
-        // assign table view data soirce
         tableView.dataSource = self
         
         fetchTeams()
     }
+    
     
     // Fetches all the teams participating in the Africa Cup of Nations from Live Scores API
     private func fetchTeams(){
@@ -126,6 +133,7 @@ class TeamsViewController: UIViewController, UITableViewDataSource {
         
         session.resume() // start the async network request
     }
-
     
 }
+
+
