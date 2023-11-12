@@ -131,7 +131,7 @@ AfriGoal is an app designed for soccer fans. It is specifically tailored to be t
 - [ ] Groups screen displaying group standings 
 - [ ] Matches screen displaying competition fixtures 
 - [ ] Matches screen displaying details 
-- [ ] Teams screen displaying all teams in the competition
+- [x] Teams screen displaying all teams in the competition
 
 ### Sprints 
 * Sprint 1: Build group screen and tabbed navigation
@@ -154,7 +154,17 @@ AfriGoal is an app designed for soccer fans. It is specifically tailored to be t
   * Goals: Populate a table view with the team names and flags through Live Score API
   * Reflection: I feel a lot more comofortable with the the logic behind API calls and decoding JSON data for my Team model. I also learned how to add packages to my Xcode project. I used the Nuke package to get the images from API. The compiler gives me no errors but the team names or their flags do not appear. Still debugging. 
  <img src="https://i.imgur.com/0JvHyTh.png" width=300>
- 
+
+ ### Sprints (Updated 11/12/2023) 
+ * Sprint 2:  Build Teams screen
+ * Goals: Populate a table view with the team names and flags through Live Score API
+ * Reflection: I was about to debug my code effectively. I needed to add constraints to the elements in my table cell for them to appear. I learned that is that table cells grow depending on the constraints that you have inside of the content view. I also learned about properties of the navigation bar to change the way the navigation bar looks like on scroll 
+ * Completed on 11/12/2023
+ * <div>
+    <a href="https://www.loom.com/share/fa7fcd0669d246a6a2c3d741ba291768">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fa7fcd0669d246a6a2c3d741ba291768-with-play.gif">
+    </a>
+  </div>
 
 
 
