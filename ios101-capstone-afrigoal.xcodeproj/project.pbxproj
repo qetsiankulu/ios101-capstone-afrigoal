@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6331A6B92B0809BC0056859C /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6331A6B82B0809BC0056859C /* GroupsViewController.swift */; };
+		6331A6BF2B08189D0056859C /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6331A6BE2B08189C0056859C /* GroupCell.swift */; };
+		6331A6C32B083E510056859C /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6331A6C22B083E510056859C /* Group.swift */; };
 		639E77312AFB227C004C7691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E77302AFB227C004C7691 /* AppDelegate.swift */; };
 		639E77332AFB227C004C7691 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E77322AFB227C004C7691 /* SceneDelegate.swift */; };
 		639E77352AFB227C004C7691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E77342AFB227C004C7691 /* ViewController.swift */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6331A6B82B0809BC0056859C /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		6331A6BE2B08189C0056859C /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		6331A6C22B083E510056859C /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		639E772D2AFB227C004C7691 /* ios101-capstone-afrigoal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios101-capstone-afrigoal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		639E77302AFB227C004C7691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		639E77322AFB227C004C7691 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +88,9 @@
 				639E77342AFB227C004C7691 /* ViewController.swift */,
 				639E77442AFB237B004C7691 /* HomeScreenViewController.swift */,
 				639E77362AFB227C004C7691 /* Main.storyboard */,
+				6331A6BE2B08189C0056859C /* GroupCell.swift */,
+				6331A6B82B0809BC0056859C /* GroupsViewController.swift */,
+				6331A6C22B083E510056859C /* Group.swift */,
 				639E77552AFC36FC004C7691 /* TeamCell.swift */,
 				639E77392AFB227F004C7691 /* Assets.xcassets */,
 				639E773B2AFB227F004C7691 /* LaunchScreen.storyboard */,
@@ -173,7 +182,10 @@
 				639E77562AFC36FD004C7691 /* TeamCell.swift in Sources */,
 				639E77352AFB227C004C7691 /* ViewController.swift in Sources */,
 				639E77542AFC11E7004C7691 /* Team.swift in Sources */,
+				6331A6C32B083E510056859C /* Group.swift in Sources */,
 				639E77452AFB237B004C7691 /* HomeScreenViewController.swift in Sources */,
+				6331A6BF2B08189D0056859C /* GroupCell.swift in Sources */,
+				6331A6B92B0809BC0056859C /* GroupsViewController.swift in Sources */,
 				639E77312AFB227C004C7691 /* AppDelegate.swift in Sources */,
 				639E774F2AFC03A3004C7691 /* TeamsViewController.swift in Sources */,
 				639E77332AFB227C004C7691 /* SceneDelegate.swift in Sources */,
