@@ -128,7 +128,7 @@ AfriGoal is an app designed for soccer fans. It is specifically tailored to be t
 
 ### Main Features
 - [x] Home Screen displaying countdown till kick-off
-- [ ] Groups screen displaying group standings 
+- [x] Groups screen displaying group standings 
 - [ ] Matches screen displaying competition fixtures 
 - [ ] Matches screen displaying details 
 - [x] Teams screen displaying all teams in the competition
@@ -165,6 +165,19 @@ AfriGoal is an app designed for soccer fans. It is specifically tailored to be t
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fa7fcd0669d246a6a2c3d741ba291768-with-play.gif">
     </a>
   </div>
+
+
+### Sprints (Updated 11/17/2023) 
+ * Sprint 3:  Build Groups screen
+ * Goals: Create a table view where each table cell has multiple rows 
+ * Reflection: I learned how to make a tabel cell that has multiple rows. Glad I was able to teach myself how to build because I believe it's a super useful UI design pattern to know. 
+ * Completed on 11/17/2023
+ * <div>
+    <a href="https://www.loom.com/share/1e598eb959464ae59f1ffebc6b0cfa49">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/1e598eb959464ae59f1ffebc6b0cfa49-with-play.gif">
+    </a>
+  </div>
+
 
 
 
