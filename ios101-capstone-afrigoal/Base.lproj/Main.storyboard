@@ -108,7 +108,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="er7-qM-Aep"/>
-                        <color key="backgroundColor" red="0.022306405009999999" green="0.26920875909999997" blue="0.20241296289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.023529411760000001" green="0.27058823529999998" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="QUK-jh-0RO" firstAttribute="top" secondItem="PY7-hv-3Tc" secondAttribute="bottom" constant="17" id="2tW-JU-RDb"/>
                             <constraint firstItem="PY7-hv-3Tc" firstAttribute="centerX" secondItem="nxT-16-2ar" secondAttribute="centerX" id="6TS-5V-Ik3"/>
@@ -130,7 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LyG-No-chw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2535.1145038167938" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="2534" y="-61"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="K5k-m3-u8N">
@@ -146,7 +146,49 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cMn-jH-zhW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2647" y="715"/>
+            <point key="canvasLocation" x="2534" y="637"/>
+        </scene>
+        <!--Groups-->
+        <scene sceneID="SaW-k6-hC7">
+            <objects>
+                <viewController id="zoh-rk-Nd7" customClass="GroupsViewController" customModule="ios101_capstone_afrigoal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6q4-Sx-GPf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8TQ-n6-FZs">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GroupCell" rowHeight="263" id="Hy4-Fb-88v" customClass="GroupCell" customModule="ios101_capstone_afrigoal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="263"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hy4-Fb-88v" id="evK-ru-oSM">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="263"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.1141170338" green="0.26742699739999998" blue="0.2078373134" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cZM-3U-M8B"/>
+                        <color key="backgroundColor" red="0.86274509799999999" green="0.40992802379999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cZM-3U-M8B" firstAttribute="bottom" secondItem="8TQ-n6-FZs" secondAttribute="bottom" id="5zO-VV-XcQ"/>
+                            <constraint firstItem="8TQ-n6-FZs" firstAttribute="leading" secondItem="cZM-3U-M8B" secondAttribute="leading" id="8FL-9z-KoY"/>
+                            <constraint firstItem="8TQ-n6-FZs" firstAttribute="top" secondItem="cZM-3U-M8B" secondAttribute="top" id="cR4-0r-ezZ"/>
+                            <constraint firstItem="cZM-3U-M8B" firstAttribute="trailing" secondItem="8TQ-n6-FZs" secondAttribute="trailing" id="rDV-KF-5qc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Groups" id="60u-EU-POr"/>
+                    <connections>
+                        <outlet property="tableView" destination="8TQ-n6-FZs" id="5MR-ah-dWz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bCF-L9-n6C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2533.5877862595421" y="-1444.3661971830986"/>
         </scene>
         <!--Teams-->
         <scene sceneID="pKq-s5-yYI">
@@ -156,9 +198,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Uqu-6Y-8rW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Uqu-6Y-8rW">
                                 <rect key="frame" x="0.0" y="103" width="393" height="666"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TeamCell" rowHeight="158" id="Fhf-kQ-eOZ" customClass="TeamCell" customModule="ios101_capstone_afrigoal" customModuleProvider="target">
@@ -207,6 +248,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OLw-Dz-oDi"/>
                         <color key="backgroundColor" red="0.86274509799999999" green="0.40992802379999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Uqu-6Y-8rW" firstAttribute="top" secondItem="OLw-Dz-oDi" secondAttribute="top" id="0zR-Ir-9Wj"/>
+                            <constraint firstItem="Uqu-6Y-8rW" firstAttribute="leading" secondItem="OLw-Dz-oDi" secondAttribute="leading" id="N2c-uM-K2a"/>
+                            <constraint firstItem="Uqu-6Y-8rW" firstAttribute="bottom" secondItem="OLw-Dz-oDi" secondAttribute="bottom" id="Tka-92-ZWx"/>
+                            <constraint firstItem="Uqu-6Y-8rW" firstAttribute="trailing" secondItem="OLw-Dz-oDi" secondAttribute="trailing" id="gOL-Xw-M3N"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Teams" id="9N1-D3-mD5" userLabel="Teams"/>
                     <connections>
@@ -233,12 +280,13 @@
                     <connections>
                         <segue destination="f6C-gh-Oso" kind="relationship" relationship="viewControllers" id="3pG-A0-YKc"/>
                         <segue destination="GQi-La-fab" kind="relationship" relationship="viewControllers" id="Zoo-8Q-7Sw"/>
+                        <segue destination="jGh-Ns-YSt" kind="relationship" relationship="viewControllers" id="RJ8-uI-sdb"/>
                         <segue destination="Pmn-zl-cP6" kind="relationship" relationship="viewControllers" id="tgQ-l9-YFW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pWY-gh-LgL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="515" y="-27"/>
+            <point key="canvasLocation" x="-1234" y="146"/>
         </scene>
         <!--Home-->
         <scene sceneID="puG-1I-6Hy">
@@ -257,7 +305,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fQT-z7-b7p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1608.3969465648854" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="1607" y="-60"/>
         </scene>
         <!--Matches-->
         <scene sceneID="rB5-SI-gl6">
@@ -276,7 +324,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xh8-pH-diW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1720" y="715"/>
+            <point key="canvasLocation" x="1607" y="637"/>
         </scene>
         <!--Teams-->
         <scene sceneID="Nqm-7v-JO2">
@@ -304,11 +352,38 @@
             </objects>
             <point key="canvasLocation" x="1608" y="-749"/>
         </scene>
+        <!--Groups-->
+        <scene sceneID="F5k-Fi-mmq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jGh-Ns-YSt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Groups" image="list.bullet" catalog="system" id="m9D-fY-DcW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AIB-67-nYf">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.86274509799999999" green="0.40992802379999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.93524712320000003" green="0.94561070199999997" blue="0.9673736691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zoh-rk-Nd7" kind="relationship" relationship="rootViewController" id="TqT-n4-X3F"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2EV-sE-7rN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1607" y="-1444"/>
+        </scene>
     </scenes>
     <resources>
         <image name="caf-logo-icon" width="154" height="252"/>
         <image name="caf-logo-text" width="253" height="224"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="list.bullet" catalog="system" width="128" height="87"/>
         <image name="soccerball" catalog="system" width="128" height="123"/>
         <image name="t.square.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
